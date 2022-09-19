@@ -1,13 +1,10 @@
 import './App.css';
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-scroll';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import icon_white from './imgs/Icon_white.png';
 import icon from './imgs/icon.png';
 import carousel1 from './imgs/carousel1.jpeg';
 import carousel2 from './imgs/carousel2.jpg';
-
-// const TOTAL_SLIDES = 3; // n-1 in Array
 
 function App() {
   const [current, setCurrent] = useState(0);

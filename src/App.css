@@ -34,7 +34,6 @@
 }
 @media only screen and (max-width: 550px) {
   .landing {
-    background-image: url('./imgs/landing.png');
     height: 60vh;
     background-position: -200px 0px;
   }
@@ -78,7 +77,6 @@
 }
 @media only screen and (max-width: 550px) {
   .landing-flex {
-    display: flex;
     flex-direction: column;
   }
   .landing-flex a {
